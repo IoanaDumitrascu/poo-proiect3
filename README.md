@@ -84,7 +84,7 @@ std::vector<T> filtrareVector(const std::vector<T>& sursa, Predicat p);
 Clasa `PiesaFactory` din `PiesaFactory.hpp` centralizează crearea obiectelor derivate din `PiesaVestimentara`. Codul client nu mai include headerele claselor concrete și nu cunoaște detaliile constructorilor.
 
 ```cpp
-// Creare dupa tip
+
 auto p = PiesaFactory::creeaza("Haina", "Rochie", "Versace", 1200, 95, "Matase", "0");
 
 // Catalog predefinit
