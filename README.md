@@ -87,7 +87,7 @@ Clasa `PiesaFactory` din `PiesaFactory.hpp` centralizează crearea obiectelor de
 
 auto p = PiesaFactory::creeaza("Haina", "Rochie", "Versace", 1200, 95, "Matase", "0");
 
-// Catalog predefinit
+
 auto p2 = PiesaFactory::rochieDeGala();
 auto p3 = PiesaFactory::sneakersCasual();
 ```
@@ -99,7 +99,7 @@ Respectă principiul **Open-Closed** — adăugarea unei noi derivate necesită 
 Interfața `ScoreStrategy` din `ScoreStrategy.hpp` permite înlocuirea algoritmului de calcul al scorului fără modificarea clasei `Garderoba`.
 
 ```cpp
-// Schimba algoritmul la runtime
+
 garderoba.setStrategy(ScoreStrategyFactory::creeaza("top3"));
 ```
 
