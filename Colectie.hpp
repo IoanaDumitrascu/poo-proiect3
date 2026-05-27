@@ -79,8 +79,7 @@ std::ostream& operator<<(std::ostream& os, const Colectie<U>& c) {
     return os;
 }
 
-// Functie sablon libera: filtreaza orice vector dupa un predicat
-// (functie template normala/libera - cerinta T3)
+
 template <typename T, typename Predicat>
 std::vector<T> filtrareVecotr(const std::vector<T>& sursa, Predicat p) {
     std::vector<T> rezultat;
