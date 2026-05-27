@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TrendSetter3" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TrendSetter3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TrendSetter3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Accesoriu.cpp" />
+		<Unit filename="Accesoriu.hpp" />
+		<Unit filename="Bijuterie.cpp" />
+		<Unit filename="Bijuterie.hpp" />
+		<Unit filename="Colectie.hpp" />
+		<Unit filename="Eveniment.cpp" />
+		<Unit filename="Eveniment.hpp" />
+		<Unit filename="Exceptii.hpp" />
+		<Unit filename="Garderoba.cpp" />
+		<Unit filename="Garderoba.hpp" />
+		<Unit filename="Haina.cpp" />
+		<Unit filename="Haina.hpp" />
+		<Unit filename="Incaltaminte.cpp" />
+		<Unit filename="Incaltaminte.hpp" />
+		<Unit filename="PiesaFactory.hpp" />
+		<Unit filename="PiesaVestimentara.cpp" />
+		<Unit filename="PiesaVestimentara.hpp" />
+		<Unit filename="Piesafactory.hpp" />
+		<Unit filename="ScoreStrategy.hpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

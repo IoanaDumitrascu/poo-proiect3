@@ -1,0 +1,103 @@
+# depslib dependency file v1.0
+1779886984 source:c:\proiectpoo3\trendsetter3\accesoriu.cpp
+	"Accesoriu.hpp"
+
+1779887967 c:\proiectpoo3\trendsetter3\accesoriu.hpp
+	"PiesaVestimentara.hpp"
+
+1779887533 c:\proiectpoo3\trendsetter3\piesavestimentara.hpp
+	<iostream>
+	<string>
+
+1779887038 source:c:\proiectpoo3\trendsetter3\bijuterie.cpp
+	"Bijuterie.hpp"
+
+1779887981 c:\proiectpoo3\trendsetter3\bijuterie.hpp
+	"PiesaVestimentara.hpp"
+
+1779887107 source:c:\proiectpoo3\trendsetter3\eveniment.cpp
+	"Eveniment.hpp"
+	"Exceptii.hpp"
+
+1779887144 c:\proiectpoo3\trendsetter3\eveniment.hpp
+	<string>
+	<vector>
+	<iostream>
+
+1779887213 c:\proiectpoo3\trendsetter3\exceptii.hpp
+	<exception>
+	<string>
+
+1779887916 source:c:\proiectpoo3\trendsetter3\garderoba.cpp
+	"Garderoba.hpp"
+	"Exceptii.hpp"
+	"Haina.hpp"
+	"Incaltaminte.hpp"
+	"Accesoriu.hpp"
+	"Bijuterie.hpp"
+	"PiesaFactory.hpp"
+	<algorithm>
+	<fstream>
+	<iostream>
+	<iomanip>
+
+1779887881 c:\proiectpoo3\trendsetter3\garderoba.hpp
+	"PiesaVestimentara.hpp"
+	"Eveniment.hpp"
+	"ScoreStrategy.hpp"
+	<vector>
+	<memory>
+	<string>
+
+1779887762 c:\proiectpoo3\trendsetter3\scorestrategy.hpp
+	"PiesaVestimentara.hpp"
+	"Eveniment.hpp"
+	<memory>
+	<vector>
+	<numeric>
+	<algorithm>
+
+1779887952 c:\proiectpoo3\trendsetter3\haina.hpp
+	"PiesaVestimentara.hpp"
+
+1779887379 c:\proiectpoo3\trendsetter3\incaltaminte.hpp
+	"PiesaVestimentara.hpp"
+
+1779887865 c:\proiectpoo3\trendsetter3\piesafactory.hpp
+	"PiesaVestimentara.hpp"
+	"Haina.hpp"
+	"Incaltaminte.hpp"
+	"Accesoriu.hpp"
+	"Bijuterie.hpp"
+	"Exceptii.hpp"
+	<memory>
+	<string>
+
+1779887291 source:c:\proiectpoo3\trendsetter3\haina.cpp
+	"Haina.hpp"
+
+1779887348 source:c:\proiectpoo3\trendsetter3\incaltaminte.cpp
+	"Incaltaminte.hpp"
+
+1779887938 source:c:\proiectpoo3\trendsetter3\main.cpp
+	"Garderoba.hpp"
+	"Eveniment.hpp"
+	"Exceptii.hpp"
+	"PiesaFactory.hpp"
+	"ScoreStrategy.hpp"
+	"Colectie.hpp"
+	<iostream>
+	<limits>
+	<vector>
+	<string>
+
+1779887628 c:\proiectpoo3\trendsetter3\colectie.hpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<stdexcept>
+
+1779887498 source:c:\proiectpoo3\trendsetter3\piesavestimentara.cpp
+	"PiesaVestimentara.hpp"
+	"Exceptii.hpp"
+
